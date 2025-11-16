@@ -1,9 +1,7 @@
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-100 text-center py-4 mt-auto">
-      <p className="text-gray-600 text-sm">
-        &copy; {new Date().getFullYear()} Daily Contents. All rights reserved.
-      </p>
+    <footer className="bg-gray-800 text-gray-200 text-center py-4">
+      <p>&copy; {new Date().getFullYear()} MyApp. All rights reserved.</p>
     </footer>
   );
 };
